@@ -9,5 +9,5 @@ export default defineConfig({
     tailwindcss()
     
   ],
-  base:  process.env.NODE_ENV === 'production' ? '/portafolio/' : '/',
+  base: '/portafolio/',
 })
