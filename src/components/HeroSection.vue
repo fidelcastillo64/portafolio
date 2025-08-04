@@ -26,7 +26,7 @@
                         <button class="border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center border-(--accent) ">
                             <div class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative text-(--accent)">
                             <div class="flex items-center gap-2.5">
-                                <a href="../items/IAN KEVIN CASTILLO GALVÁN.pdf" download="IAN KEVIN CASTILLO GALVÁN.pdf">
+                                <a href="/items/IAN KEVIN CASTILLO GALVÁN.pdf" download="IAN KEVIN CASTILLO GALVÁN.pdf">
                                     <span class="">{{ t('HeroSection', 'CV') }}</span>
                                     <font-awesome-icon icon="fa-solid fa-file-arrow-down" class="text-2xl" />
                                 </a>
