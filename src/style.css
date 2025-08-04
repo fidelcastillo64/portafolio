@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* Modo Claro (por defecto) */
+:root {
+  --text: #0c0d0d;
+  --text-oposition: #ffffff;
+  --text-Nochange: #ffffff;
+  --text-Nochange-B: #000000;
+  --background: #ebf0f4;
+  --primary: #24496b;
+  --secondary: #6dade8;
+  --accent: #027ef2;
+  --background-oposition: #0b1014;
+  --primary-oposition: #95badc;
+  --orange: #fdad00;
+  --card-bg: #7589d9;
+}
+
+/* Modo Oscuro */
+.dark {
+  --text: #f1f2f2;
+  --text-oposition: #0c0d0d;
+  --text-Nochange: #ffffff;
+  --text-Nochange-B: #000000;
+  --background: #0b1014;
+  --primary: #95badc;
+  --secondary: #165590;
+  --accent: #0e88fc;
+  --background-oposition: #ebf0f4;
+  --primary-oposition: #24496b;
+  --orange: #fdad00;
+  --card-bg: #7589d9;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--background);
+}

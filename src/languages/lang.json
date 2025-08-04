@@ -1,0 +1,99 @@
+{
+"es": {
+    "barra_lateral": {
+        "Inicio": "Inicio",
+        "Nombre": "Ian Kevin Castillo Galván",
+
+        "Experiencia": "Experiencia",
+        "Proyectos": {
+            "Titulo": "Proyectos",
+            "Cientifico": "Científico de Datos",
+            "Desarrollador": "Desarrollador de Software"
+        },
+
+        "Habilidades": "Habilidades",
+        "Educacion": "Educación y Certificaciones",
+        "Contacto": "Contacto",
+        "Sobre_mi": "Sobre mí"
+    },
+    "idiomas": {
+        "Español": "Español",
+        "Inglés": "Inglés"
+    },
+    "navbar": {
+        "Servicios": "Servicios",
+        "Habilidades": "Habilidades",
+        "Proyectos": "Proyectos",
+        "Sobre_mi": "Sobre mí",
+        "Educacion": "Educación",
+        "Contacto": "Contacto",
+        "Blog": "Blog"
+    },
+    "HeroSection": {
+        "Saludo": "Hola, soy",
+        "Nombre": "Ian Kevin Castillo Galván",
+        "Subtitulo": "Un apasionado de la ciencia de datos y el desarrollo de software",
+        "Contactame": "Contáctame",
+        "CV": "Descargar CV",
+        "Boton": "Ver Proyectos",
+        "Descripción": "Soy Ingeniero de Software egresado de la UAQ, actualmente en proceso de formación como Científico de Datos en EBAC. Mi experiencia en desarrollo de software me ha brindado una base sólida en programación, análisis de datos y solución de problemas complejos, y estoy complementando mis conocimientos con machine learning, modelado predictivo y visualización de datos."
+    },
+    "Servicios": {
+        "Titulo": "Servicios",
+        "Cientifico": "Científico de Datos",
+        "Cientifico_Descripcion": "Desarrollo de modelos predictivos y análisis de datos para extraer información valiosa.",
+        "Desarrollador": "Desarrollador de Software",
+        "Desarrollador_Descripcion": "Creación de aplicaciones web y móviles, así como integración de sistemas.",
+        "Analista": "Analista de Datos",
+        "Analista_Descripcion": "Interpretación de datos, generación de informes y toma de decisiones informadas."
+    }
+},
+"en": {
+    "barra_lateral": {
+        "Inicio": "Home",
+        "Nombre": "Ian Kevin Castillo Galván",
+        "Experiencia": "Experience",
+        "Proyectos": {
+            "Titulo": "Projects",
+            "Cientifico": "Data Scientist",
+            "Desarrollador": "Software Developer"
+        },
+        "Habilidades": "Skills",
+        "Educacion": "Education and Certifications",
+        "Contacto": "Contact",
+        "Sobre_mi": "About Me"
+    },
+    "idiomas": {
+        "Español": "Spanish",
+        "Inglés": "English"
+    }
+    ,
+    "navbar": {
+        "Servicios": "Services",
+        "Sobre_mi": "About Me",
+        "Contacto": "Contact",
+        "Habilidades": "Skills",
+        "Proyectos": "Projects",
+        "Educacion": "Education",
+        "Blog": "Blog"
+    },
+    "HeroSection": {
+        "Saludo": "Hello, I'm",
+        "Nombre": "Ian Kevin Castillo Galván",
+        "Subtitulo": "A passionate Data Scientist and Software Developer",
+        "Contactame": "Contact Me",
+        "CV": "Download CV",
+        "Boton": "View Projects",
+        "Descripción": "I am a Software Engineer graduated from UAQ, currently in the process of training as a Data Scientist at EBAC. My experience in software development has given me a solid foundation in programming, data analysis, and solving complex problems, and I am complementing my knowledge with machine learning, predictive modeling and data visualization."
+    },
+    "Servicios": {
+        "Titulo": "Services",
+        "Cientifico": "Data Scientist",
+        "Cientifico_Descripcion": "Development of predictive models and data analysis to extract valuable insights.",
+        "Desarrollador": "Software Developer",
+        "Desarrollador_Descripcion": "Creation of web and mobile applications, as well as system integration.",
+        "Analista": "Data Analyst",
+        "Analista_Descripcion": "Interpretation of data, generation of reports and informed decision making."
+    }
+}
+}
