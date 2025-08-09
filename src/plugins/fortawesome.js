@@ -1,4 +1,17 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
+import { faJs, 
+  faPython,
+  faJava,
+  faCss3,
+  faHtml5,
+  faNodeJs,
+  faVuejs,
+  faPhp,
+  faMicrosoft,
+  faGithub,
+  faAngular,
+  faOpenai
+} from '@fortawesome/free-brands-svg-icons';
 import {
   faUserSecret,
   faThumbsUp,
@@ -8,7 +21,6 @@ import {
   faFolder,
   faHouse,
   faGraduationCap,
-  faChartLine,
   faLaptopCode,
   faChevronDown,
   faXmark,
@@ -19,9 +31,15 @@ import {
   faMoon,
   faLightbulb,
   faCode,
-  faDatabase
-
+  faDatabase,
+  faCalendar,
+  faChartLine,
+  faDiagramProject,
+  faServer,
+  faRobot,
+  faChartPie
 } from '@fortawesome/free-solid-svg-icons';
+
 
 // Función para inicializar y añadir los iconos a la librería
 export function initializeFontAwesome() {
@@ -45,6 +63,24 @@ export function initializeFontAwesome() {
     faMoon,
     faLightbulb,
     faCode,
-    faDatabase
+    faCalendar,
+    // Iconos de marcas 
+    faJs,
+    faPython,
+    faJava,
+    faCss3,
+    faHtml5,
+    faNodeJs,
+    faVuejs,
+    faPhp,
+    faMicrosoft,
+    faGithub,
+    faAngular,
+    faDatabase,
+    faOpenai,
+    faDiagramProject,
+    faServer,
+    faRobot,
+    faChartPie
   );
 }

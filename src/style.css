@@ -13,7 +13,7 @@
   --background-oposition: #0b1014;
   --primary-oposition: #95badc;
   --orange: #fdad00;
-  --card-bg: #7589d9;
+  --card-bg: #111a3e;
 }
 
 /* Modo Oscuro */
@@ -29,7 +29,7 @@
   --background-oposition: #ebf0f4;
   --primary-oposition: #24496b;
   --orange: #fdad00;
-  --card-bg: #7589d9;
+  --card-bg: #111a3e;
 }
 
 body {

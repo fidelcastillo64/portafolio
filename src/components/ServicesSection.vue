@@ -1,5 +1,5 @@
 <template>
-    <section class="text-(--text) mt-20">
+    <section class="text-(--text) mt-15">
         <div class="px-4 xl:pl-16">
             <h2 class="text-4xl font-bold text-(--text) mb-4">
                 {{ t('Servicios', 'Titulo') }}
@@ -25,7 +25,6 @@
 <script setup>
 import { useLanguageStore } from '../stores/language';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { ref, onMounted } from 'vue';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const languageStore = useLanguageStore();

@@ -4,6 +4,8 @@
     <NavBar />
     <HeroSection />
     <ServicesSection />
+    <AboutSection />
+    <ExperienceAndSkills />
     <!-- language switch always visible -->
     <Language class="language-switch" />
   </div>
@@ -17,7 +19,8 @@ import Language from './components/sidebar/LanguageSwitch.vue';
 const NavBar = defineAsyncComponent(() => import('./components/NavBar.vue'));
 const HeroSection = defineAsyncComponent(() => import('./components/HeroSection.vue'));
 const ServicesSection = defineAsyncComponent(() => import('./components/ServicesSection.vue'));
-
+const AboutSection = defineAsyncComponent(() => import('./components/AboutSection.vue'));
+const ExperienceAndSkills = defineAsyncComponent(() => import('./components/ExperienceAndSkills.vue'));
 const collapsed = ref(true);
 
 const isAppInDarkMode = ref(false);
@@ -75,7 +78,7 @@ onUnmounted(() => {
   position: fixed;
   bottom: 0; /* Positions the div at the very bottom of the viewport */
   left: 0;   /* Aligns the div to the left edge of the viewport */
-
+  z-index: 1000; /* Ensures the div is above other content */
   padding: 10px;
   
 }

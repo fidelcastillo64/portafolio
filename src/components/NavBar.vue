@@ -1,36 +1,72 @@
 <template>
   
-    <header class=" flex justify-between items-center p-6 bg-opacity-50 relative z-20" > 
-      <div class=" text-3xl font-bold text-(var(--text)) items-center" > LOGO  <DarkMode />  </div>
-      <!-- mobile toggle  button -->
-       <div class="md:hidden z-30">
-        <button type="button" 
-        class=" blockfocus:outline-none" 
-        @click="isMenuOpen = !isMenuOpen">
-          <span v-if="isMenuOpen" class="text-2xl">
-            <font-awesome-icon icon="fa-solid fa-xmark  " class="text-(--text-Nochange)" size="2x"  />
-          </span>
-          <span v-else class="text-2xl">
-            <font-awesome-icon icon="fa-solid fa-bars " size="2x"  />
-          </span>
-        </button>
-      </div>
-      
-       <!-- Navbar link -->
-        <!-- si el menú está abierto, muestra los enlaces  -->
-        <nav
-        :class="['fixed inset-0 z-20 flex flex-col items-center justify-center md:bg-none bg-[#000000]/90 md:relative md:flex md:justify-between md:flex-row md:bg-transparent ', 
-        isMenuOpen ? 'block': 'hidden']"
-       
-        >
-          <ul :class="['flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 ']">
-            <li v-for="item in Mlist" :key="item.name" class=" text-lg   text-(--text-Nochange)  md:text-(--text)">
-              <a :href="item.href" class="block ease-linear text-2xl md:text-lg transition duration-300 hover:text-(--accent) " >{{ item.name }}</a>
-            </li>
-          </ul>
+<header class="flex justify-between items-center p-6 relative z-20">
+    <!-- Logo - Contenedor izquierdo -->
+    <div class="text-3xl font-bold">LOGO</div>
+    
+    <!-- Dark Mode para escritorio - Contenedor central -->
+    <div class="flex-grow justify-end pr-3  flex">
+        <DarkMode class=" w-10"/>
+    </div>
+    
+    <!-- Contenedor de la derecha para pantallas grandes y el menú de móvil -->
+    <div class="flex items-center gap-4 z-30">
+        <!-- Navegación para escritorio -->
+        <nav class="hidden md:block">
+            <ul class="flex flex-row space-x-6">
+                <li
+                    v-for="item in Mlist"
+                    :key="item.name"
+                    class="text-lg text-[var(--text)]"
+                >
+                    <a
+                        :href="item.href"
+                        class="block ease-linear text-lg transition duration-300 hover:text-[var(--accent)]"
+                    >
+                        {{ item.name }}
+                    </a>
+                </li>
+            </ul>
         </nav>
         
-    </header>
+        <!-- Botones para móvil (Dark Mode y menú toggle) -->
+        <div class="md:hidden flex items-center gap-4">
+            
+            <button 
+                type="button" 
+                class="block focus:outline-none" 
+                @click="isMenuOpen = !isMenuOpen"
+            >
+                <span v-if="isMenuOpen" class="text-2xl">
+                    <font-awesome-icon icon="fa-solid fa-xmark" size="2x" />
+                </span>
+                <span v-else class="text-2xl">
+                    <font-awesome-icon icon="fa-solid fa-bars" size="2x" />
+                </span>
+            </button>
+        </div>
+    </div>
+    
+    <!-- Navegación de pantalla completa para móvil -->
+    <nav
+        :class="['fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#000000]/90 md:hidden', isMenuOpen ? 'block': 'hidden']"
+    >
+        <ul class="flex flex-col space-y-4">
+            <li
+                v-for="item in Mlist"
+                :key="item.name"
+                class="text-lg text-[var(--text-Nochange)]"
+            >
+                <a
+                    :href="item.href"
+                    class="block ease-linear text-2xl transition duration-300 hover:text-[var(--accent)]"
+                >
+                    {{ item.name }}
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
     
 </template>
 
@@ -83,7 +119,7 @@ const scrollToSection = (href) => {
 };
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 </script>
-
+.Da
 <style scoped>
 
 </style>
