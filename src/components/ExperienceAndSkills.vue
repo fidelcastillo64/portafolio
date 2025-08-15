@@ -29,26 +29,25 @@
                 </div>
             </div>
             <div  class="top-3" data-aos="fade-up" data-aos-offset="-200">
-                <h2 class="text-4xl font-bold text-left mb-8 md:text-center md:mt-0 mt-8" data-aos="">
+                <h2 class="text-4xl font-bold text-left mb-8 md:mt-0 mt-8 " data-aos="">
                     {{ t('skills', 'experiencia') }}
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-(--orange) to-(--text)">{{ t('skills', 'laboral') }}</span>
                 </h2>
-                <div class="space-y-4 py-8" >
+                <div class="space-y-8" >
                     <div v-for="value in experiencia" :key="value.id"
-                    class="flex items-center rounded-xl p-4 bg-(--card-bg)" >
+                    class="flex items-center  rounded-xl p-4 bg-(--card-bg) shadow-lg border  border-[#1f1641]" >
                     <div class="w-1/4">
-                        <svg>
-                            <image :href="value.iconoEmpresa" alt="Logo" class="w-fullobject-contain mx-auto text-[var(--orange)]"></image>
+                        <svg class="" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <image class="w-25" :href="value.iconoEmpresa" alt="Logo" ></image>
                         </svg>
                     </div>
-                    <div class="w-3/4 pl-4">
-                        <h3 class="text-lg font-semibold text-(--text-Nochange)">{{ value.titulo }}</h3>
-                        <p class="text-sm text-gray-300">{{ value.descripcion }}</p>
+                    <div class="w-3/4 flex-1 items-center">
+                        <h3 class="text-lg font-semibold text-(--text-Nochange) uppercase">{{ value.titulo }}</h3>
+                        <p class="text-sm text-gray-400"><font-awesome-icon class="text-[var(--orange)]" icon="fa-solid fa-calendar" /> {{ value.fecha }}</p>
+                        <p class="text-sm text-gray-300 flex-grow ">{{ value.descripcion }}</p>
                     </div>
                     </div>
-
                 </div>
-                
 
             </div>
         </div>
@@ -56,7 +55,7 @@
     </section>
 </template>
 <script setup>
-import { ref, onMounted, computed } from 'vue';
+import { computed } from 'vue';
 import { useLanguageStore } from '../stores/language';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import SvgIcon from './Elements/SvgIcon.vue';
@@ -207,6 +206,11 @@ const skills = computed(() => [
         titulo: t('skills', 'TypeScript'),
         type: 'SVG',
         icono: "./img/skills/typescript.svg"
+    },
+    {
+        id: 27,
+        titulo: t('skills', 'Git'),
+        icono: "fa-brands fa-git-alt"
     }
 ]);
 

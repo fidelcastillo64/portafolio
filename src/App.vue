@@ -6,6 +6,10 @@
     <ServicesSection />
     <AboutSection />
     <ExperienceAndSkills />
+    <ProjectsSection />
+    <ContactSection />
+    <!-- <Testimonial />  -->  <!-- Elemento sin funcionalidad aun  -->
+    <Footer />
     <!-- language switch always visible -->
     <Language class="language-switch" />
   </div>
@@ -21,7 +25,10 @@ const HeroSection = defineAsyncComponent(() => import('./components/HeroSection.
 const ServicesSection = defineAsyncComponent(() => import('./components/ServicesSection.vue'));
 const AboutSection = defineAsyncComponent(() => import('./components/AboutSection.vue'));
 const ExperienceAndSkills = defineAsyncComponent(() => import('./components/ExperienceAndSkills.vue'));
-const collapsed = ref(true);
+const ProjectsSection = defineAsyncComponent(() => import('./components/ProjectsSection.vue'));
+const ContactSection = defineAsyncComponent(() => import('./components/ContactSection.vue'));
+const Testimonial = defineAsyncComponent(() => import('./components/Testimonial.vue'));
+const Footer = defineAsyncComponent(() => import('./components/Footer.vue'));
 
 const isAppInDarkMode = ref(false);
 
@@ -80,6 +87,5 @@ onUnmounted(() => {
   left: 0;   /* Aligns the div to the left edge of the viewport */
   z-index: 1000; /* Ensures the div is above other content */
   padding: 10px;
-  
 }
 </style>

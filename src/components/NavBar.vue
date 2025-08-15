@@ -60,6 +60,7 @@
                 <a
                     :href="item.href"
                     class="block ease-linear text-2xl transition duration-300 hover:text-[var(--accent)]"
+                    @click="scrollToSection(item.href)"
                 >
                     {{ item.name }}
                 </a>
@@ -98,13 +99,12 @@ onMounted(() => {
 
 // lista de elementos del navbar
 const Mlist = computed(() => [
-  {name: t('navbar', 'Servicios'), href: '#'}, // Accede a la función 't' a través de .value
-  {name: t('navbar', 'Sobre_mi'), href: '#'},
-  {name: t('navbar', 'Habilidades'), href: '#'},
-  {name: t('navbar', 'Proyectos'), href: '#'},
-  {name: t('navbar', 'Contacto'), href: '#'},
-  {name: t('navbar', 'Blog'), href: '#'},
-  {name: t('navbar', 'Educacion'), href: '#'},
+  {name: t('navbar', 'Servicios'), href: '#services'}, // Accede a la función 't' a través de .value
+  {name: t('navbar', 'Sobre_mi'), href: '#about'},
+  {name: t('navbar', 'Habilidades'), href: '#skills'},
+  {name: t('navbar', 'Educacion'), href: '#skills'},
+  {name: t('navbar', 'Proyectos'), href: '#projects'},
+  {name: t('navbar', 'Contacto'), href: '#contact'},
 ]);
 
 const isMenuOpen = ref(false);

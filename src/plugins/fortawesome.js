@@ -10,7 +10,9 @@ import { faJs,
   faMicrosoft,
   faGithub,
   faAngular,
-  faOpenai
+  faOpenai,
+  faGitAlt,
+  faLinkedin
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faUserSecret,
@@ -37,7 +39,10 @@ import {
   faDiagramProject,
   faServer,
   faRobot,
-  faChartPie
+  faChartPie,
+  faWindowRestore,
+  faEnvelope,
+  faPhone
 } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -64,7 +69,9 @@ export function initializeFontAwesome() {
     faLightbulb,
     faCode,
     faCalendar,
-    // Iconos de marcas 
+    faEnvelope,
+    faPhone,
+    // Iconos de marcas
     faJs,
     faPython,
     faJava,
@@ -81,6 +88,11 @@ export function initializeFontAwesome() {
     faDiagramProject,
     faServer,
     faRobot,
-    faChartPie
+    faChartPie,
+    faGitAlt,
+    faWindowRestore,
+    faEnvelope,
+    faPhone,
+    faLinkedin
   );
 }

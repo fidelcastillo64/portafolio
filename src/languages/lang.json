@@ -101,7 +101,45 @@
     "Experiencia": {
         "DesarrolladorWeb": "Desarrollador Web JR.",
         "DesarrolladorWeb_info": "Desarrollo de aplicaciones web utilizando PHP y JavaScript, para la automatización de procesos, captura y procesamiento de datos."
+    },
+    "Proyectos":{
+        "Titulo": "Proyectos",
+        "Categoria": "Todos los Proyectos",
+        "Categoria1": "Desarrollo Web",
+        "Categoria2": "Desarrollo Móvil",
+        "Categoria3": "Ciencia de Datos",
+        "Descripcion": "Una colección de mis proyectos personales y profesionales.",
+        "Filtro": "Filtro"
+    },
+    "Proyecto1": {
+        "Titulo": "Proyecto 1",
+        "Descripcion": "Descripción del Proyecto 1"
+    },
+    "Proyecto2": {
+        "Titulo": "Proyecto 2",
+        "Descripcion": "Descripción del Proyecto 2"
+    },
+    "Proyecto3": {
+        "Titulo": "Proyecto 3",
+        "Descripcion": "Descripción del Proyecto 3"
+    },
+    "Contacto": {
+        "Titulo": "Contactame",
+        "Descripcion": "Si tienes alguna pregunta o inquietud acerca de mis servicios y sobre mi, no dudes en contactarme, Estoy aquí para ayudarte y responder a todas tus preguntas.",
+        "Telefono": "Numero De Telefono",
+        "Correo": "Correo Electrónico",
+        "Linkedin": "Linkedin"
+    },
+    "Herramientas": {
+        "Titulo": "Herramientas",
+        "Descripcion": "Este portafolio fue desarrollado utilizando un conjunto de tecnologías modernas que reflejan mi enfoque actual como ingeniero de software. A continuación, se detallan las herramientas empleadas en su construcción."
+    },
+    "Footer": {
+        "Derechos": "© 2025 Ian Kevin Castillo Galván. Todos los derechos reservados.",
+        "Politica": "Política de Privacidad",
+        "Terminos": "Términos de Servicio"
     }
+
 },
 "en": {
     "barra_lateral": {
@@ -203,8 +241,45 @@
         "laboral": "Experience"
     },
     "Experiencia":{
-        "DesarrolladorWeb": "JR. web developer",
+        "DesarrolladorWeb": "JR. Web Developer",
         "DesarrolladorWeb_info": "Development of web applications using PHP and JavaScript, for process automation, data capture and processing."
+    },
+    "Proyectos":{
+        "Titulo": "Projects",
+        "Categoria": "All Projects",
+        "Categoria1": "Web Development",
+        "Categoria2": "Mobile Development",
+        "Categoria3": "Data Science",
+        "Descripcion": "A collection of my personal and professional projects.",
+        "Filtro": "Filter"
+    },
+    "Proyecto1": {
+        "Titulo": "Project 1",
+        "Descripcion": "Description of Project 1"
+    },
+    "Proyecto2": {
+        "Titulo": "Project 2",
+        "Descripcion": "Description of Project 2"
+    },
+    "Proyecto3": {
+        "Titulo": "Project 3",
+        "Descripcion": "Description of Project 3"
+    },
+    "Contacto": {
+        "Titulo": "Let´s Contact",
+        "Descripcion": "If you have any questions or concerns about my services, please feel free to reach out to me. I'm here to help you and answer all your questions.",
+        "Telefono": "Phone Number",
+        "Correo": "Email",
+        "Linkedin": "LinkedIn"
+    },
+    "Herramientas": {
+        "Titulo": "Tools",
+        "Descripcion": "This portfolio was developed using a set of modern technologies that reflect my current approach as a software engineer. Below are the tools used in its construction."
+    },
+    "Footer": {
+        "Derechos": "© 2025 Ian Kevin Castillo Galván. All rights reserved.",
+        "Politica": "Privacy Policy",
+        "Terminos": "Terms of Service"
     }
 }
 }

@@ -1,5 +1,5 @@
 <template>
-    <section class="text-(--text) mt-15">
+    <section class="text-(--text) mt-15" id="services">
         <div class="px-4 xl:pl-16">
             <h2 class="text-4xl font-bold text-(--text) mb-4">
                 {{ t('Servicios', 'Titulo') }}
