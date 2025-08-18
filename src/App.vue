@@ -55,12 +55,55 @@ onMounted(() => {
 onUnmounted(() => {
   observer.disconnect();
 });
+// BOT
+window.addEventListener('mouseover', initLandbot, { once: true });
+window.addEventListener('touchstart', initLandbot, { once: true });
+let myLandbot = null;
+function initLandbot() {
+  if (!myLandbot) {
+    var s = document.createElement('script');
+    s.type = "module"
+    s.async = true;
+    s.addEventListener('load', function() {
+      myLandbot = new Landbot.Livechat({
+        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-3094073-UXAN789DW76SFWB2/index.json',
+      });
+    });
+    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  }
+}
+const scrollToSection = (href) => {
+  const section = document.querySelector(href);
+  if (section) {
+    console.log("Desplazando a la sección:", href);
+    section.scrollIntoView({ behavior: 'smooth' });
+    // si esta en movil cerrara el menu del bot
+    if (window.innerWidth < 768) {
+      console.log("Cerrando el bot en móvil");
+      myLandbot.close(); // Cierra el chat si está abierto
+    }
+  }
+};
 
+// Función para cerrar el bot si la ventana es pequeña
+const closeBotOnSmallScreens = () => {
+  if (window.innerWidth < 768) {
+    myLandbot.close(); // Cierra el chat
+  }
+};
 
+//
+window.addEventListener("message", (event) => {
+  if (event.data?.type === "scrollTo") {
+    scrollToSection(event.data.target);
+  }
+});
 
 
 </script>
-<style scoped>
+<style >
 /* Estilos específicos para el componente */
 .secundary-color {
   background-color: var(--secondary);
@@ -88,4 +131,7 @@ onUnmounted(() => {
   z-index: 1000; /* Ensures the div is above other content */
   padding: 10px;
 }
+
+
 </style>
+

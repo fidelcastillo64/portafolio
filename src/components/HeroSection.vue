@@ -16,7 +16,8 @@
                         {{ t('HeroSection', 'Descripción') }}
                     </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
-                        <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
+                        <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center"
+                        @click="scrollToSection('#contact')">
                             <span class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-(--accent)
                                 border-2 border-transparent"></span>
                             <span class="relative flex items-center justify-center gap-2.5 text-amber-50">
@@ -26,7 +27,7 @@
                         <button class="border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center border-(--accent) ">
                             <div class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative text-(--accent)">
                             <div class="flex items-center gap-2.5">
-                                <a href="/portafolio/items/IAN KEVIN CASTILLO GALVÁN.pdf" download="IAN KEVIN CASTILLO GALVÁN.pdf">
+                                <a :href="t('HeroSection', 'CVpath')" :download="t('HeroSection', 'CVName')">
                                     <span class="">{{ t('HeroSection', 'CV') }}</span>
                                     <font-awesome-icon icon="fa-solid fa-file-arrow-down" class="text-2xl" />
                                 </a>
@@ -58,6 +59,15 @@ import { useLanguageStore } from '../stores/language';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 const languageStore = useLanguageStore();
 const t = languageStore.t;
+
+const scrollToSection = (href) => {
+  // Desplaza suavemente a la sección correspondiente
+  const section = document.querySelector(href);
+  // Si la sección existe, desplázate a ella
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
 </script>
 <style scoped>

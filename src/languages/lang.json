@@ -10,7 +10,7 @@
             "Cientifico": "Científico de Datos",
             "Desarrollador": "Desarrollador de Software"
         },
-
+        "portafolio": "Portafolio",
         "Habilidades": "Habilidades",
         "Educacion": "Educación y Certificaciones",
         "Contacto": "Contacto",
@@ -34,6 +34,8 @@
         "Nombre": "Ian Kevin Castillo Galván",
         "Subtitulo": "Un apasionado de la ciencia de datos y el desarrollo de software",
         "Contactame": "Contáctame",
+        "CVpath": "/portafolio/items/CV_2025_ES.pdf",
+        "CVName": "CV_2025_ES.pdf",
         "CV": "Descargar CV",
         "Boton": "Ver Proyectos",
         "Descripción": "Soy Ingeniero de Software egresado de la UAQ, actualmente en proceso de formación como Científico de Datos en EBAC. Mi experiencia en desarrollo de software me ha brindado una base sólida en programación, análisis de datos y solución de problemas complejos, y estoy complementando mis conocimientos con machine learning, modelado predictivo y visualización de datos."
@@ -48,7 +50,7 @@
         "Analista_Descripcion": "Interpretación de datos, generación de informes y toma de decisiones informadas."
     },
     "Sobre_mi": {
-        "Titulo": "Sobre mí",
+        "Titulo": "Educación y Certificaciones",
         "UAQ": "Universidad Autónoma de Querétaro",
         "UAQ_Descripcion": "Ingeniero en Software",
         "UAQ_info": "Graduado de la Universidad Autónoma de Querétaro, tengo una base sólida en principios y prácticas de ingeniería de software.",
@@ -64,7 +66,10 @@
         "Subtitelo": "Más ",
         "Subtitelo2": "Sobre",
         "Subtitelo3": " mí",
-        "MásSobreMi": "Soy un apasionado de la ciencia de datos y el desarrollo de software, con un enfoque en la innovación y la mejora continua. Me encanta enfrentar desafíos complejos y encontrar soluciones creativas que generen un impacto positivo en los proyectos en los que participo. Mi objetivo es seguir aprendiendo y creciendo en el campo de la ciencia de datos, contribuyendo a proyectos que utilicen la tecnología para resolver problemas reales y mejorar procesos. mientras desarrollo diseños innovadores y funcionales que mejoren la experiencia del usuario."
+        "MásSobreMi": "Soy un apasionado de la ciencia de datos y el desarrollo de software, con un enfoque en la innovación y la mejora continua. Me encanta enfrentar desafíos complejos y encontrar soluciones creativas que generen un impacto positivo en los proyectos en los que participo. Mi objetivo es seguir aprendiendo y creciendo en el campo de la ciencia de datos, contribuyendo a proyectos que utilicen la tecnología para resolver problemas reales y mejorar procesos. mientras desarrollo diseños innovadores y funcionales que mejoren la experiencia del usuario.",
+        "tarjeta1": "año de experiencia",
+        "tarjeta2": "proyectos completados",
+        "tarjeta3": "certificaciones obtenidas"
     },
     "skills": {
         "Mis": "Mis",
@@ -151,6 +156,7 @@
             "Cientifico": "Data Scientist",
             "Desarrollador": "Software Developer"
         },
+        "portafolio": "Portfolio",
         "Habilidades": "Skills",
         "Educacion": "Education and Certifications",
         "Contacto": "Contact",
@@ -176,6 +182,8 @@
         "Subtitulo": "A passionate Data Scientist and Software Developer",
         "Contactame": "Contact Me",
         "CV": "Download CV",
+        "CVpath": "/portafolio/items/CV_2025_EN.pdf",
+        "CVName": "CV_2025_EN.pdf",
         "Boton": "View Projects",
         "Descripción": "I am a Software Engineer graduated from UAQ, currently in the process of training as a Data Scientist at EBAC. My experience in software development has given me a solid foundation in programming, data analysis, and solving complex problems, and I am complementing my knowledge with machine learning, predictive modeling and data visualization."
     },
@@ -190,7 +198,7 @@
     }
     ,
     "Sobre_mi": {
-        "Titulo": "About Me",
+        "Titulo": "Education and Certifications",
         "UAQ": "Universidad Autónoma de Querétaro",
         "UAQ_Descripcion": "Software Engineer",
         "UAQ_info": "Graduated from the Autonomous University of Querétaro, I have a solid foundation in software engineering principles and practices.",
@@ -206,7 +214,10 @@
         "Subtitelo": "More ",
         "Subtitelo2": "About",
         "Subtitelo3": " Me",
-        "MásSobreMi": "I am passionate about data science and software development, with a focus on innovation and continuous improvement. I love tackling complex challenges and finding creative solutions that have a positive impact on the projects I participate in. My goal is to continue learning and growing in the field of data science, contributing to projects that use technology to solve real problems and improve processes. I also enjoy developing innovative and functional designs that enhance user experience."
+        "MásSobreMi": "I am passionate about data science and software development, with a focus on innovation and continuous improvement. I love tackling complex challenges and finding creative solutions that have a positive impact on the projects I participate in. My goal is to continue learning and growing in the field of data science, contributing to projects that use technology to solve real problems and improve processes. I also enjoy developing innovative and functional designs that enhance user experience.",
+        "tarjeta1": "year of experience",
+        "tarjeta2": "projects completed",
+        "tarjeta3": "certifications obtained"
     },
     "skills": {
         "Mis": "My",

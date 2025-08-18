@@ -33,16 +33,16 @@
                 <p class="text-base lg:text-lg mt-8 py-8">{{ t('Sobre_mi', 'MásSobreMi') }}</p>
                 <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
                     <div class="text-center rounded-xl bg-[#111a3e] bg-opacity-10 shadow-lg hover:shadow-xl border-[#1f1641] p-5">
-                        <h1 class="text-4xl font-bold text-(--text-Nochange)">4</h1>
-                        <p class="text-sm sm:text-base text-gray-300">Proyectos personales</p>
+                        <h1 class="text-4xl font-bold text-(--text-Nochange)">1</h1>
+                        <p class="text-sm sm:text-base text-gray-300">{{ t('Sobre_mi', 'tarjeta1') }}</p>
                     </div>
                     <div class="text-center rounded-xl bg-[#111a3e] bg-opacity-10 shadow-lg hover:shadow-xl border-[#1f1641] p-5">
                         <h1 class="text-4xl font-bold text-(--text-Nochange)">6</h1>
-                        <p class="text-sm sm:text-base text-gray-300">Meses de experiencia</p>
+                        <p class="text-sm sm:text-base text-gray-300">{{ t('Sobre_mi', 'tarjeta2') }}</p>
                     </div>
                     <div class="text-center rounded-xl bg-[#111a3e] bg-opacity-10 shadow-lg hover:shadow-xl border-[#1f1641] p-5">
                         <h1 class="text-4xl font-bold text-(--text-Nochange)">4</h1>
-                        <p class="text-sm sm:text-base text-gray-300">Certificaciones</p>
+                        <p class="text-sm sm:text-base text-gray-300">{{ t('Sobre_mi', 'tarjeta3') }}</p>
                     </div>
                 </div>
             </div>

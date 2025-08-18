@@ -2,8 +2,8 @@
   
 <header class="flex justify-between items-center p-6 relative z-20">
     <!-- Logo - Contenedor izquierdo -->
-    <div class="text-3xl font-bold">LOGO</div>
-    
+    <div class="text-3xl font-bold">{{ t('barra_lateral', 'portafolio') }}</div>
+
     <!-- Dark Mode para escritorio - Contenedor central -->
     <div class="flex-grow justify-end pr-3  flex">
         <DarkMode class=" w-10"/>
@@ -31,16 +31,15 @@
         
         <!-- Botones para móvil (Dark Mode y menú toggle) -->
         <div class="md:hidden flex items-center gap-4">
-            
             <button 
                 type="button" 
                 class="block focus:outline-none" 
                 @click="isMenuOpen = !isMenuOpen"
             >
-                <span v-if="isMenuOpen" class="text-2xl">
+                <span v-if="isMenuOpen" class="text-2xl text-amber-50">
                     <font-awesome-icon icon="fa-solid fa-xmark" size="2x" />
                 </span>
-                <span v-else class="text-2xl">
+                <span v-else class="text-2xl ">
                     <font-awesome-icon icon="fa-solid fa-bars" size="2x" />
                 </span>
             </button>
@@ -102,7 +101,6 @@ const Mlist = computed(() => [
   {name: t('navbar', 'Servicios'), href: '#services'}, // Accede a la función 't' a través de .value
   {name: t('navbar', 'Sobre_mi'), href: '#about'},
   {name: t('navbar', 'Habilidades'), href: '#skills'},
-  {name: t('navbar', 'Educacion'), href: '#skills'},
   {name: t('navbar', 'Proyectos'), href: '#projects'},
   {name: t('navbar', 'Contacto'), href: '#contact'},
 ]);
